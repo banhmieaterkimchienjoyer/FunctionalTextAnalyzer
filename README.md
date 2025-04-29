@@ -2,11 +2,8 @@
 ### Program napisany w języku C# z użyciem podejścia funkcyjnego
 
 ## 🔍 Opis
-Ten projekt to **funkcyjny analizator tekstu** napisany w języku **C#**, którego zadaniem jest analiza kolekcji zdań. Program wykorzystuje styl funkcyjny do przetwarzania danych – bez modyfikowania stanu, z wykorzystaniem metod LINQ oraz wyrażeń funkcyjnych (`Select`, `Where`, `GroupBy`, `Aggregate`, `Func<>`).
+Ten projekt to **funkcyjny analizator tekstu**, którego zadaniem jest analiza kolekcji zdań. Program wykorzystuje styl funkcyjny do przetwarzania danych – bez modyfikowania stanu, z wykorzystaniem metod LINQ oraz wyrażeń funkcyjnych (`Select`, `Where`, `GroupBy`, `Aggregate`, `Func<>`).
 
-## ✅ Wymagania
-- .NET 6 lub nowszy
-- Visual Studio / Rider / VS Code
 
 ## 🧠 Podejście funkcyjne
 Program wykorzystuje podejście funkcyjne:
@@ -51,8 +48,3 @@ functions
 - `System.Linq`
 - `System.Func<>`
 
-## ✅ Jak uruchomić:
-```bash
-dotnet restore
-dotnet run
-```
